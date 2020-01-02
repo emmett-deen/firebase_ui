@@ -81,11 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
         providers: [
           ProvidersTypes.google,
           ProvidersTypes.facebook,
-          ProvidersTypes.twitter,
           ProvidersTypes.email
-        ],
-        twitterConsumerKey: "",
-        twitterConsumerSecret: "", horizontalPadding: 12,
+        ], horizontalPadding: 12,
       );
     } else {
       return new HomeScreen(user: _currentUser);
